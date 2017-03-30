@@ -1,0 +1,74 @@
+div#header 
+{
+    background-color: darkgoldenrod;
+    text-align: -webkit-center;
+    color: beige;
+    padding: 1;
+}
+ul
+{
+list-style-type:none;
+margin: 0;
+padding :0;
+overflow:hidden;
+background-color:#333;
+position:none;
+top:0%;
+width:100%
+}
+li
+{
+dispaly:inline;
+float:left;
+border-right: 1px solid #bbb;
+}
+li:last-child
+{
+float:left;
+border-right:none;
+}
+li a{
+display:block;
+color:white;
+text-align:center;
+padding:14px 16px;
+text-decoration:;
+}
+li a:hover
+{
+a:active
+{
+background-color:#111
+};
+background-color:#4CAF50;
+}
+
+	p.one 
+{
+border-style:solid;
+border-width:5px;
+}
+<a href="Menu.php">Menu</a>
+margin:0;
+	padding:0px;
+	list-style:none; 
+	overflow:hidden;
+	background-color:#333;
+	top:10%;
+	display:block;
+	display:block;
+	width:100%
+#HDropdown-orange-classic 
+	{
+list-style-type:none;
+margin: 0;
+padding :0;
+overflow:hidden;
+background-color:#333;
+position:none;
+top:0%;
+width:100%
+repeat-x top;
+border-width:1px 1px 1px 0; 
+position:relative;
+	}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Greek Factory</title>
+ <link rel="stylesheet" type="text/css" href="woble.css"/> 
+ <link rel="stylesheet" type="text/css" href="button.css"/> 
+<style>
+#header {
+    background-color: darkmagenta;
+    color: thistle;
+    text-align:center;
+    padding:5px;
+  font-family: cursive;
+    font-size: larger;
+    font-style: oblique;
+
+}
+
+#nav {
+    line-height:30px;
+    background-color:thistle;
+    height:525px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+#rightnav {
+    line-height:30px;
+    background-color:thistle;
+    height:525px;
+    width:150px;
+    float:right;
+    padding:5px;	      
+}
+
+#section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+#footer {
+    background-color: darkmagenta;
+    color: thistle;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+ }
+   
+   
+li
+{
+height:10%;
+list-style-type:none;
+margin: 0;
+padding :0;
+overflow:hidden;
+background;
+position:none;
+top:100%;
+width:100%
+}
+
+li a{
+display:block;
+color:black;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;
+}
+a
+{
+text-decoration:none;
+
+}
+li a:hover
+{
+a:active
+{
+background-color:#111
+};
+background-color:violet;
+}
+
+li ul { margin:0; padding:0 5px; line-height:none;height:78%;
+ position:absolute; top:35px; left:0; border:solid 1px #c93300; border-width:0px 1px 1px 1px; width:180px; display:none; background:#FFFFFF;}
+li:hover ul { display:block }
+li:hover a {color:white; background::#4CAF50;
+}
+li ul li { display:block;  border-bottom:solid 3px #888888 ; width:100%; background:url(images/d_horizontal_red_classic_menu_arrow.gif) no-repeat 3px 12px; padding:10px 2px  10px; }
+li ul li:last-child { border-bottom:0px;}
+li ul a { border-width:10px; color: darkmagenta; padding:0 5px 0 0; background-color:transparent;}
+li:hover ul li a { color:#909090}
+li ul li a:hover {color:white; background::#4CAF50;
+}
+
+</style>
+</head>
+<body>
+
+<div id="header">
+<h1>CEG&nbsp;&nbsp;Cafe</h1>
+</div>
+
+<div id="nav">
+   <li><a class="active" href="home.php">Home</a></li>
+   <li><a class="active"  href="Menu.php">Menu</a>
+   <ul>
+   <li ><a href="Menu.php">Specialities</li>
+    <li ><a href="Menu.php">Snacks</li>
+   <li ><a  href="Menu.php">Soups</li>
+   <li ><a  href="Menu.php">Starters</li>
+   <li ><a  href="Menu.php">Main Course</li>
+   <li ><a  href="Menu.php">Desserts</li>
+   <li ><a  href="Menu.php">Drinks</li>
+   </ul>
+   <li><a href="gallery.php">Gallery</a></li>
+   <li><a href="order.php">Order</a></li>
+   
+   <li><a href="contact.php">Contact</a></li>
+   <li><a href="about.php">About us</a></li>
+	
+</div>
+
+<div id="rightnav">
+<a href="guestbook.php"><img src="bg/sign.png"></a>  
+<br><br><button class="button2" ><a href="login.html" style="font color="black">User Login</a></button>
+<br><br><button class="button3"><a href="stafflogin.php">Staff Login</a></button> 
+</br>
+</div>
+
+<div id="footer">
+Copyright © Bala and Arvind :p 
+</div>
+
+</body>
+</html>
